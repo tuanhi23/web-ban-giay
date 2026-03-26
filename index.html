@@ -1,0 +1,1544 @@
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>exported project</title>
+    <meta property="og:title" content="exported project" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}pre {  white-space: normal;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="webbangiay-container1">
+        <div class="webbangiay-thq-webbangiay-elm">
+          <div class="webbangiay-thq-main-elm">
+            <div class="webbangiay-thq-container-elm10">
+              <div class="webbangiay-thq-ordered-list-elm1">
+                <span class="webbangiay-thq-text-elm100">Trang chủ</span>
+                <div class="webbangiay-thq-item-elm1">
+                  <span class="webbangiay-thq-text-elm101">/&nbsp;</span>
+                  <span class="webbangiay-thq-text-elm102">Danh mục</span>
+                </div>
+                <div class="webbangiay-thq-item-elm2">
+                  <span class="webbangiay-thq-text-elm103">/&nbsp;</span>
+                  <span class="webbangiay-thq-text-elm104">GIÀY DÉP</span>
+                </div>
+              </div>
+              <div class="webbangiay-thq-frame1-elm">
+                <div class="webbangiay-thq-container-elm11">
+                  <div class="webbangiay-thq-ordered-list-elm2">
+                    <span class="webbangiay-thq-text-elm105">Trang chủ</span>
+                    <div class="webbangiay-thq-item-elm3">
+                      <span class="webbangiay-thq-text-elm106">/&nbsp;</span>
+                      <span class="webbangiay-thq-text-elm107">Danh mục</span>
+                    </div>
+                    <div class="webbangiay-thq-item-elm4">
+                      <span class="webbangiay-thq-text-elm108">/&nbsp;</span>
+                      <span class="webbangiay-thq-text-elm109">GIÀY DÉP</span>
+                    </div>
+                  </div>
+                  <img
+                    src="public/image17117-ikl-700h.png"
+                    alt="image17117"
+                    class="webbangiay-thq-image1-elm"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="webbangiay-thq-container-elm12">
+              <div
+                class="webbangiay-thq-pclasstitleblockvisiblesmvisiblexs-elm"
+              >
+                <div class="webbangiay-thq-filterproducttype-elm">
+                  <div class="webbangiay-thq-paragraph-background-elm1">
+                    <span class="webbangiay-thq-text-elm110">Danh mục</span>
+                  </div>
+                  <div class="webbangiay-thq-list-elm1">
+                    <div class="webbangiay-thq-item-label-elm10">
+                      <img
+                        src="public/backgroundborder122-ha5-200h.png"
+                        alt="BackgroundBorder122"
+                        class="webbangiay-thq-background-border-elm10"
+                      />
+                      <span class="webbangiay-thq-text-elm111">
+                        Dép Quai Ngang
+                      </span>
+                      <img
+                        src="public/background124-8voq-200h.png"
+                        alt="Background124"
+                        class="webbangiay-thq-background-elm10"
+                      />
+                    </div>
+                    <div class="webbangiay-thq-item-label-elm11">
+                      <img
+                        src="public/backgroundborder126-i1k-200h.png"
+                        alt="BackgroundBorder126"
+                        class="webbangiay-thq-background-border-elm11"
+                      />
+                      <span class="webbangiay-thq-text-elm112">
+                        Giày Sneaker
+                      </span>
+                      <img
+                        src="public/background128-x43q-200h.png"
+                        alt="Background128"
+                        class="webbangiay-thq-background-elm11"
+                      />
+                    </div>
+                    <div class="webbangiay-thq-item-label-elm12">
+                      <img
+                        src="public/backgroundborder130-2jlq-200h.png"
+                        alt="BackgroundBorder130"
+                        class="webbangiay-thq-background-border-elm12"
+                      />
+                      <span class="webbangiay-thq-text-elm113">Dép Kẹp</span>
+                      <img
+                        src="public/background132-gdjf-200h.png"
+                        alt="Background132"
+                        class="webbangiay-thq-background-elm12"
+                      />
+                    </div>
+                    <div class="webbangiay-thq-item-label-elm13">
+                      <img
+                        src="public/backgroundborder134-cll-200h.png"
+                        alt="BackgroundBorder134"
+                        class="webbangiay-thq-background-border-elm13"
+                      />
+                      <span class="webbangiay-thq-text-elm114">Giày Tây</span>
+                      <img
+                        src="public/background136-dwu-200h.png"
+                        alt="Background136"
+                        class="webbangiay-thq-background-elm13"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="webbangiay-thq-filtercolor-elm">
+                  <div class="webbangiay-thq-paragraph-background-elm2">
+                    <span class="webbangiay-thq-text-elm115">Màu sắc</span>
+                  </div>
+                  <div class="webbangiay-thq-list-elm2">
+                    <div class="webbangiay-thq-item-label-elm14">
+                      <img
+                        src="public/backgroundborder143-258q-200h.png"
+                        alt="BackgroundBorder143"
+                        class="webbangiay-thq-background-border-elm14"
+                      />
+                      <span class="webbangiay-thq-text-elm116">White</span>
+                      <img
+                        src="public/label145-fzzp-200h.png"
+                        alt="Label145"
+                        class="webbangiay-thq-label-elm1"
+                      />
+                      <img
+                        src="public/background146-rl4b-200h.png"
+                        alt="Background146"
+                        class="webbangiay-thq-background-elm14"
+                      />
+                    </div>
+                    <div class="webbangiay-thq-item-label-elm15">
+                      <img
+                        src="public/backgroundborder148-eox-200h.png"
+                        alt="BackgroundBorder148"
+                        class="webbangiay-thq-background-border-elm15"
+                      />
+                      <span class="webbangiay-thq-text-elm117">Black</span>
+                      <img
+                        src="public/label150-ikq-200h.png"
+                        alt="Label150"
+                        class="webbangiay-thq-label-elm2"
+                      />
+                      <img
+                        src="public/background151-0ri-200h.png"
+                        alt="Background151"
+                        class="webbangiay-thq-background-elm15"
+                      />
+                    </div>
+                    <div class="webbangiay-thq-item-label-elm16">
+                      <img
+                        src="public/backgroundborder153-stq-200h.png"
+                        alt="BackgroundBorder153"
+                        class="webbangiay-thq-background-border-elm16"
+                      />
+                      <span class="webbangiay-thq-text-elm118">Navy</span>
+                      <img
+                        src="public/label155-fprj-200h.png"
+                        alt="Label155"
+                        class="webbangiay-thq-label-elm3"
+                      />
+                      <img
+                        src="public/background156-92kj-200h.png"
+                        alt="Background156"
+                        class="webbangiay-thq-background-elm16"
+                      />
+                    </div>
+                    <div class="webbangiay-thq-item-label-elm17">
+                      <img
+                        src="public/backgroundborder158-8br-200h.png"
+                        alt="BackgroundBorder158"
+                        class="webbangiay-thq-background-border-elm17"
+                      />
+                      <span class="webbangiay-thq-text-elm119">Blue</span>
+                      <img
+                        src="public/label160-dlmj-200h.png"
+                        alt="Label160"
+                        class="webbangiay-thq-label-elm4"
+                      />
+                      <img
+                        src="public/background161-7xms-200h.png"
+                        alt="Background161"
+                        class="webbangiay-thq-background-elm17"
+                      />
+                    </div>
+                    <div class="webbangiay-thq-item-label-elm18">
+                      <img
+                        src="public/backgroundborder163-kgec-200h.png"
+                        alt="BackgroundBorder163"
+                        class="webbangiay-thq-background-border-elm18"
+                      />
+                      <span class="webbangiay-thq-text-elm120">Green</span>
+                      <img
+                        src="public/label165-bef9-200h.png"
+                        alt="Label165"
+                        class="webbangiay-thq-label-elm5"
+                      />
+                      <img
+                        src="public/background166-zwfo-200h.png"
+                        alt="Background166"
+                        class="webbangiay-thq-background-elm18"
+                      />
+                    </div>
+                    <div class="webbangiay-thq-item-label-elm19">
+                      <img
+                        src="public/backgroundborder168-o8kq-200h.png"
+                        alt="BackgroundBorder168"
+                        class="webbangiay-thq-background-border-elm19"
+                      />
+                      <span class="webbangiay-thq-text-elm121">Be</span>
+                      <img
+                        src="public/label170-sou-200h.png"
+                        alt="Label170"
+                        class="webbangiay-thq-label-elm6"
+                      />
+                      <img
+                        src="public/background171-jo08-200h.png"
+                        alt="Background171"
+                        class="webbangiay-thq-background-elm19"
+                      />
+                    </div>
+                    <div class="webbangiay-thq-item-label-elm20">
+                      <img
+                        src="public/backgroundborder173-2yln-200h.png"
+                        alt="BackgroundBorder173"
+                        class="webbangiay-thq-background-border-elm20"
+                      />
+                      <span class="webbangiay-thq-text-elm122">Đỏ</span>
+                      <img
+                        src="public/label175-cnak-200h.png"
+                        alt="Label175"
+                        class="webbangiay-thq-label-elm7"
+                      />
+                      <img
+                        src="public/background176-hjrd-200h.png"
+                        alt="Background176"
+                        class="webbangiay-thq-background-elm20"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="webbangiay-thq-filterpricever2-elm">
+                  <div class="webbangiay-thq-paragraph-background-elm3">
+                    <span class="webbangiay-thq-text-elm123">Giá</span>
+                  </div>
+                  <div class="webbangiay-thq-background-elm21">
+                    <img
+                      src="public/overlayshadow182-i223-200h.png"
+                      alt="OverlayShadow182"
+                      class="webbangiay-thq-overlay-shadow-elm"
+                    />
+                    <div class="webbangiay-thq-overlay-elm">
+                      <img
+                        src="public/gradient184-fn9g-200h.png"
+                        alt="Gradient184"
+                        class="webbangiay-thq-gradient-elm"
+                      />
+                    </div>
+                    <div class="webbangiay-thq-slider-elm1"></div>
+                    <div class="webbangiay-thq-slider-elm2"></div>
+                  </div>
+                  <div class="webbangiay-thq-border-elm1">
+                    <span class="webbangiay-thq-text-elm124">Minimum</span>
+                    <div class="webbangiay-thq-input-elm1">
+                      <div class="webbangiay-thq-container-elm13"></div>
+                    </div>
+                  </div>
+                  <div class="webbangiay-thq-border-elm2">
+                    <span class="webbangiay-thq-text-elm125">Maximum</span>
+                    <div class="webbangiay-thq-input-elm2">
+                      <div class="webbangiay-thq-container-elm14">
+                        <span class="webbangiay-thq-text-elm126">3000000</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="webbangiay-thq-filtersize-elm">
+                  <div class="webbangiay-thq-paragraph-background-elm4">
+                    <span class="webbangiay-thq-text-elm127">Kích thước</span>
+                  </div>
+                  <div class="webbangiay-thq-list-elm3">
+                    <div class="webbangiay-thq-item-label-elm21">
+                      <span class="webbangiay-thq-text-elm128">35</span>
+                    </div>
+                    <div class="webbangiay-thq-item-label-elm22">
+                      <span class="webbangiay-thq-text-elm129">36</span>
+                    </div>
+                    <div class="webbangiay-thq-item-label-elm23">
+                      <span class="webbangiay-thq-text-elm130">37</span>
+                    </div>
+                    <div class="webbangiay-thq-item-label-elm24">
+                      <span class="webbangiay-thq-text-elm131">38</span>
+                    </div>
+                    <div class="webbangiay-thq-item-label-elm25">
+                      <span class="webbangiay-thq-text-elm132">39</span>
+                    </div>
+                    <div class="webbangiay-thq-item-label-elm26">
+                      <span class="webbangiay-thq-text-elm133">40</span>
+                    </div>
+                    <div class="webbangiay-thq-item-label-elm27">
+                      <span class="webbangiay-thq-text-elm134">41</span>
+                    </div>
+                    <div class="webbangiay-thq-item-label-elm28">
+                      <span class="webbangiay-thq-text-elm135">42</span>
+                    </div>
+                    <div class="webbangiay-thq-item-label-elm29">
+                      <span class="webbangiay-thq-text-elm136">43</span>
+                    </div>
+                    <div class="webbangiay-thq-item-label-elm30">
+                      <span class="webbangiay-thq-text-elm137">43</span>
+                    </div>
+                  </div>
+                  <div class="webbangiay-thq-list-elm4">
+                    <div class="webbangiay-thq-item-label-elm31">
+                      <span class="webbangiay-thq-text-elm138">44</span>
+                    </div>
+                    <div class="webbangiay-thq-item-label-elm32">
+                      <span class="webbangiay-thq-text-elm139">45</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="webbangiay-thq-link-elm">
+                  <span class="webbangiay-thq-text-elm140">Xoá</span>
+                </div>
+              </div>
+              <div class="webbangiay-thq-container-elm15">
+                <div class="webbangiay-thq-background-elm22">
+                  <span class="webbangiay-thq-text-elm141">
+                    <span class="webbangiay-thq-text-elm142">Có</span>
+                    <span class="webbangiay-thq-text-elm143">22</span>
+                    <span>sản phẩm</span>
+                  </span>
+                  <button
+                    class="webbangiay-thq-divclasslistlayoutlistchecklayout-button-elm"
+                  >
+                    <span class="webbangiay-thq-text-elm145">Sắp xếp theo</span>
+                    <img
+                      src="public/border1152-t77f-200h.png"
+                      alt="Border1152"
+                      class="webbangiay-thq-border-elm3"
+                    />
+                  </button>
+                </div>
+                <div class="webbangiay-thq-container-elm16">
+                  <div class="webbangiay-thq-background-elm23">
+                    <div
+                      class="webbangiay-thq-link-picturemau-brown-elm1"
+                    ></div>
+                    <span class="webbangiay-thq-text-elm146">550,000₫</span>
+                    <div class="webbangiay-thq-heading3-link-elm10">
+                      <span class="webbangiay-thq-text-elm147">
+                        Dép Nam Quai Ngang…
+                      </span>
+                    </div>
+                    <img
+                      src="public/linksvg1159-2cnl.svg"
+                      alt="LinkSVG1159"
+                      class="webbangiay-thq-link-svg-elm10"
+                    />
+                    <img
+                      src="public/linksvg1161-ak8.svg"
+                      alt="LinkSVG1161"
+                      class="webbangiay-thq-link-svg-elm11"
+                    />
+                  </div>
+                  <div class="webbangiay-thq-background-elm24">
+                    <div
+                      class="webbangiay-thq-link-picturemau-black-elm10"
+                    ></div>
+                    <span class="webbangiay-thq-text-elm148">550,000₫</span>
+                    <div class="webbangiay-thq-heading3-link-elm11">
+                      <span class="webbangiay-thq-text-elm149">
+                        Dép Quai Ngang Nam…
+                      </span>
+                    </div>
+                    <img
+                      src="public/linksvg1168-y6m.svg"
+                      alt="LinkSVG1168"
+                      class="webbangiay-thq-link-svg-elm12"
+                    />
+                    <img
+                      src="public/linksvg1170-beih.svg"
+                      alt="LinkSVG1170"
+                      class="webbangiay-thq-link-svg-elm13"
+                    />
+                  </div>
+                  <div class="webbangiay-thq-background-elm25">
+                    <div
+                      class="webbangiay-thq-link-picturemau-brown-elm2"
+                    ></div>
+                    <span class="webbangiay-thq-text-elm150">550,000₫</span>
+                    <div class="webbangiay-thq-heading3-link-elm12">
+                      <span class="webbangiay-thq-text-elm151">
+                        Dép Quai Chéo Nam…
+                      </span>
+                    </div>
+                    <img
+                      src="public/linksvg1177-ap1l.svg"
+                      alt="LinkSVG1177"
+                      class="webbangiay-thq-link-svg-elm14"
+                    />
+                    <img
+                      src="public/linksvg1179-9xqq.svg"
+                      alt="LinkSVG1179"
+                      class="webbangiay-thq-link-svg-elm15"
+                    />
+                  </div>
+                  <div class="webbangiay-thq-background-elm26">
+                    <div
+                      class="webbangiay-thq-link-picturemau-black-elm11"
+                    ></div>
+                    <span class="webbangiay-thq-text-elm152">550,000₫</span>
+                    <div class="webbangiay-thq-heading3-link-elm13">
+                      <span class="webbangiay-thq-text-elm153">
+                        Dép Quai Ngang Nam…
+                      </span>
+                    </div>
+                    <img
+                      src="public/linksvg1186-2m1m.svg"
+                      alt="LinkSVG1186"
+                      class="webbangiay-thq-link-svg-elm16"
+                    />
+                    <img
+                      src="public/linksvg1188-jl.svg"
+                      alt="LinkSVG1188"
+                      class="webbangiay-thq-link-svg-elm17"
+                    />
+                  </div>
+                  <div class="webbangiay-thq-background-elm27">
+                    <div
+                      class="webbangiay-thq-link-picturemau-white-elm1"
+                    ></div>
+                    <span class="webbangiay-thq-text-elm154">1,200,000₫</span>
+                    <div class="webbangiay-thq-heading3-link-elm14">
+                      <span class="webbangiay-thq-text-elm155">
+                        Giày Sneaker Nam…
+                      </span>
+                    </div>
+                    <img
+                      src="public/linksvg1195-u058.svg"
+                      alt="LinkSVG1195"
+                      class="webbangiay-thq-link-svg-elm18"
+                    />
+                    <img
+                      src="public/linksvg1197-twmr.svg"
+                      alt="LinkSVG1197"
+                      class="webbangiay-thq-link-svg-elm19"
+                    />
+                  </div>
+                  <div class="webbangiay-thq-background-elm28">
+                    <div class="webbangiay-thq-container-elm17">
+                      <div
+                        class="webbangiay-thq-link-picturemau-brown-elm3"
+                      ></div>
+                      <div class="webbangiay-thq-background-border-elm21">
+                        <span class="webbangiay-thq-text-elm156">Liên hệ</span>
+                      </div>
+                    </div>
+                    <span class="webbangiay-thq-text-elm157">1,200,000₫</span>
+                    <div class="webbangiay-thq-heading3-link-elm15">
+                      <span class="webbangiay-thq-text-elm158">
+                        Giày Sneaker Nam…
+                      </span>
+                    </div>
+                    <img
+                      src="public/linksvg1207-c3l.svg"
+                      alt="LinkSVG1207"
+                      class="webbangiay-thq-link-svg-elm20"
+                    />
+                    <img
+                      src="public/linksvg1209-1sl.svg"
+                      alt="LinkSVG1209"
+                      class="webbangiay-thq-link-svg-elm21"
+                    />
+                  </div>
+                  <div class="webbangiay-thq-background-elm29">
+                    <div
+                      class="webbangiay-thq-link-picturemau-white-elm2"
+                    ></div>
+                    <span class="webbangiay-thq-text-elm159">1,200,000₫</span>
+                    <div class="webbangiay-thq-heading3-link-elm16">
+                      <span class="webbangiay-thq-text-elm160">
+                        Giày Sneaker Nam…
+                      </span>
+                    </div>
+                    <img
+                      src="public/linksvg1216-jdn6.svg"
+                      alt="LinkSVG1216"
+                      class="webbangiay-thq-link-svg-elm22"
+                    />
+                    <img
+                      src="public/linksvg1218-m7dc.svg"
+                      alt="LinkSVG1218"
+                      class="webbangiay-thq-link-svg-elm23"
+                    />
+                  </div>
+                  <div class="webbangiay-thq-background-elm30">
+                    <div class="webbangiay-thq-link-picturemau-grey-elm"></div>
+                    <span class="webbangiay-thq-text-elm161">1,300,000₫</span>
+                    <div class="webbangiay-thq-heading3-link-elm17">
+                      <span class="webbangiay-thq-text-elm162">
+                        Giày Thể Thao Nam…
+                      </span>
+                    </div>
+                    <img
+                      src="public/linksvg1225-vqjc.svg"
+                      alt="LinkSVG1225"
+                      class="webbangiay-thq-link-svg-elm24"
+                    />
+                    <img
+                      src="public/linksvg1227-p2sp.svg"
+                      alt="LinkSVG1227"
+                      class="webbangiay-thq-link-svg-elm25"
+                    />
+                  </div>
+                  <div class="webbangiay-thq-background-elm31">
+                    <div class="webbangiay-thq-link-picturemau-beige-elm"></div>
+                    <span class="webbangiay-thq-text-elm163">1,300,000₫</span>
+                    <div class="webbangiay-thq-heading3-link-elm18">
+                      <span class="webbangiay-thq-text-elm164">
+                        Giày Thể Thao Nam…
+                      </span>
+                    </div>
+                    <img
+                      src="public/linksvg1234-ld11.svg"
+                      alt="LinkSVG1234"
+                      class="webbangiay-thq-link-svg-elm26"
+                    />
+                    <img
+                      src="public/linksvg1236-sd.svg"
+                      alt="LinkSVG1236"
+                      class="webbangiay-thq-link-svg-elm27"
+                    />
+                  </div>
+                  <div class="webbangiay-thq-background-elm32">
+                    <div
+                      class="webbangiay-thq-link-picturemau-black-elm12"
+                    ></div>
+                    <span class="webbangiay-thq-text-elm165">550,000₫</span>
+                    <div class="webbangiay-thq-heading3-link-elm19">
+                      <span class="webbangiay-thq-text-elm166">
+                        Dép Nam Quai Chéo…
+                      </span>
+                    </div>
+                    <img
+                      src="public/linksvg1243-fpw.svg"
+                      alt="LinkSVG1243"
+                      class="webbangiay-thq-link-svg-elm28"
+                    />
+                    <img
+                      src="public/linksvg1245-6g28.svg"
+                      alt="LinkSVG1245"
+                      class="webbangiay-thq-link-svg-elm29"
+                    />
+                  </div>
+                  <div class="webbangiay-thq-background-elm33">
+                    <div
+                      class="webbangiay-thq-link-picturemau-black-elm13"
+                    ></div>
+                    <span class="webbangiay-thq-text-elm167">1,200,000₫</span>
+                    <div class="webbangiay-thq-heading3-link-elm20">
+                      <span class="webbangiay-thq-text-elm168">
+                        Giày Tây Nam SO25FH15P-DS
+                      </span>
+                    </div>
+                    <img
+                      src="public/linksvg1252-tcw.svg"
+                      alt="LinkSVG1252"
+                      class="webbangiay-thq-link-svg-elm30"
+                    />
+                    <img
+                      src="public/linksvg1254-ewn.svg"
+                      alt="LinkSVG1254"
+                      class="webbangiay-thq-link-svg-elm31"
+                    />
+                  </div>
+                  <div class="webbangiay-thq-background-elm34">
+                    <div
+                      class="webbangiay-thq-link-picturemau-black-elm14"
+                    ></div>
+                    <span class="webbangiay-thq-text-elm169">250,000₫</span>
+                    <div class="webbangiay-thq-heading3-link-elm21">
+                      <span class="webbangiay-thq-text-elm170">
+                        Dép Quai Ngang SO25FH07P…
+                      </span>
+                    </div>
+                    <img
+                      src="public/linksvg1261-btjx.svg"
+                      alt="LinkSVG1261"
+                      class="webbangiay-thq-link-svg-elm32"
+                    />
+                    <img
+                      src="public/linksvg1263-ww3q.svg"
+                      alt="LinkSVG1263"
+                      class="webbangiay-thq-link-svg-elm33"
+                    />
+                  </div>
+                  <div class="webbangiay-thq-background-elm35">
+                    <div
+                      class="webbangiay-thq-link-picturemau-black-elm15"
+                    ></div>
+                    <span class="webbangiay-thq-text-elm171">550,000₫</span>
+                    <div class="webbangiay-thq-heading3-link-elm22">
+                      <span class="webbangiay-thq-text-elm172">
+                        Dép Kẹp Tiện Lợi SO25FH06…
+                      </span>
+                    </div>
+                    <img
+                      src="public/linksvg1270-1te.svg"
+                      alt="LinkSVG1270"
+                      class="webbangiay-thq-link-svg-elm34"
+                    />
+                    <img
+                      src="public/linksvg1272-qyv7.svg"
+                      alt="LinkSVG1272"
+                      class="webbangiay-thq-link-svg-elm35"
+                    />
+                  </div>
+                  <div class="webbangiay-thq-background-elm36">
+                    <div
+                      class="webbangiay-thq-link-picturemau-brown-elm4"
+                    ></div>
+                    <span class="webbangiay-thq-text-elm173">550,000₫</span>
+                    <div class="webbangiay-thq-heading3-link-elm23">
+                      <span class="webbangiay-thq-text-elm174">
+                        Dép Nam Da Thật…
+                      </span>
+                    </div>
+                    <img
+                      src="public/linksvg1279-1kh.svg"
+                      alt="LinkSVG1279"
+                      class="webbangiay-thq-link-svg-elm36"
+                    />
+                    <img
+                      src="public/linksvg1281-ft3k.svg"
+                      alt="LinkSVG1281"
+                      class="webbangiay-thq-link-svg-elm37"
+                    />
+                  </div>
+                  <div class="webbangiay-thq-background-elm37">
+                    <div
+                      class="webbangiay-thq-link-picturemau-white-elm3"
+                    ></div>
+                    <span class="webbangiay-thq-text-elm175">1,290,000₫</span>
+                    <div class="webbangiay-thq-heading3-link-elm24">
+                      <span class="webbangiay-thq-text-elm176">
+                        Giày Sneaker Nam…
+                      </span>
+                    </div>
+                    <img
+                      src="public/linksvg1288-qi9.svg"
+                      alt="LinkSVG1288"
+                      class="webbangiay-thq-link-svg-elm38"
+                    />
+                    <img
+                      src="public/linksvg1290-k8aa.svg"
+                      alt="LinkSVG1290"
+                      class="webbangiay-thq-link-svg-elm39"
+                    />
+                  </div>
+                  <div class="webbangiay-thq-background-elm38">
+                    <div
+                      class="webbangiay-thq-link-picturemau-white-elm4"
+                    ></div>
+                    <span class="webbangiay-thq-text-elm177">1,290,000₫</span>
+                    <div class="webbangiay-thq-heading3-link-elm25">
+                      <span class="webbangiay-thq-text-elm178">
+                        Giày Sneaker Nam Cá Tính…
+                      </span>
+                    </div>
+                    <img
+                      src="public/linksvg1297-xve.svg"
+                      alt="LinkSVG1297"
+                      class="webbangiay-thq-link-svg-elm40"
+                    />
+                    <img
+                      src="public/linksvg1299-i2eh.svg"
+                      alt="LinkSVG1299"
+                      class="webbangiay-thq-link-svg-elm41"
+                    />
+                  </div>
+                  <div class="webbangiay-thq-background-elm39">
+                    <div class="webbangiay-thq-container-elm18">
+                      <div
+                        class="webbangiay-thq-link-picturemau-black-elm16"
+                      ></div>
+                      <div class="webbangiay-thq-background-border-elm22">
+                        <span class="webbangiay-thq-text-elm179">Liên hệ</span>
+                      </div>
+                    </div>
+                    <span class="webbangiay-thq-text-elm180">1,290,000₫</span>
+                    <div class="webbangiay-thq-heading3-link-elm26">
+                      <span class="webbangiay-thq-text-elm181">
+                        Giày Tây Nam SO25SS02P-DS
+                      </span>
+                    </div>
+                    <img
+                      src="public/linksvg1309-lq4.svg"
+                      alt="LinkSVG1309"
+                      class="webbangiay-thq-link-svg-elm42"
+                    />
+                    <img
+                      src="public/linksvg1311-32u.svg"
+                      alt="LinkSVG1311"
+                      class="webbangiay-thq-link-svg-elm43"
+                    />
+                  </div>
+                  <div class="webbangiay-thq-background-elm40">
+                    <div
+                      class="webbangiay-thq-link-picturemau-black-elm17"
+                    ></div>
+                    <span class="webbangiay-thq-text-elm182">1,290,000₫</span>
+                    <div class="webbangiay-thq-heading3-link-elm27">
+                      <span class="webbangiay-thq-text-elm183">
+                        Giày Công Sở SO25SS01P-DS
+                      </span>
+                    </div>
+                    <img
+                      src="public/linksvg1318-yzcl.svg"
+                      alt="LinkSVG1318"
+                      class="webbangiay-thq-link-svg-elm44"
+                    />
+                    <img
+                      src="public/linksvg1320-onrb.svg"
+                      alt="LinkSVG1320"
+                      class="webbangiay-thq-link-svg-elm45"
+                    />
+                  </div>
+                  <div class="webbangiay-thq-background-elm41">
+                    <div class="webbangiay-thq-container-elm19">
+                      <div
+                        class="webbangiay-thq-link-picturemau-black-elm18"
+                      ></div>
+                      <div class="webbangiay-thq-background-border-elm23">
+                        <span class="webbangiay-thq-text-elm184">Liên hệ</span>
+                      </div>
+                    </div>
+                    <span class="webbangiay-thq-text-elm185">550,000₫</span>
+                    <div class="webbangiay-thq-heading3-link-elm28">
+                      <span class="webbangiay-thq-text-elm186">
+                        Dép Quai Ngang SO24FH06P…
+                      </span>
+                    </div>
+                    <img
+                      src="public/linksvg1330-pva4.svg"
+                      alt="LinkSVG1330"
+                      class="webbangiay-thq-link-svg-elm46"
+                    />
+                    <img
+                      src="public/linksvg1332-4x9.svg"
+                      alt="LinkSVG1332"
+                      class="webbangiay-thq-link-svg-elm47"
+                    />
+                  </div>
+                  <div class="webbangiay-thq-background-elm42">
+                    <div class="webbangiay-thq-container-elm20">
+                      <div
+                        class="webbangiay-thq-link-picturemau-black-elm19"
+                      ></div>
+                      <div class="webbangiay-thq-background-border-elm24">
+                        <span class="webbangiay-thq-text-elm187">Liên hệ</span>
+                      </div>
+                    </div>
+                    <span class="webbangiay-thq-text-elm188">550,000₫</span>
+                    <div class="webbangiay-thq-heading3-link-elm29">
+                      <span class="webbangiay-thq-text-elm189">
+                        Dép Kẹp Nam SO24FH04P-SA
+                      </span>
+                    </div>
+                    <img
+                      src="public/linksvg1342-4gq.svg"
+                      alt="LinkSVG1342"
+                      class="webbangiay-thq-link-svg-elm48"
+                    />
+                    <img
+                      src="public/linksvg1344-cip.svg"
+                      alt="LinkSVG1344"
+                      class="webbangiay-thq-link-svg-elm49"
+                    />
+                  </div>
+                </div>
+                <div class="webbangiay-thq-container-elm21">
+                  <img
+                    src="public/linksvg1349-3nf.svg"
+                    alt="LinkSVG1349"
+                    class="webbangiay-thq-link-svg-elm50"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="webbangiay-thq-footer-elm">
+            <div class="webbangiay-thq-container-elm22">
+              <span class="webbangiay-thq-text-elm190">CHÍNH SÁCH</span>
+              <div class="webbangiay-thq-list-elm5">
+                <span class="webbangiay-thq-text-elm191">
+                  Hướng dẫn mua hàng
+                </span>
+                <span class="webbangiay-thq-text-elm192">
+                  Hướng dẫn chọn size
+                </span>
+                <span class="webbangiay-thq-text-elm193">
+                  Chính sách thanh toán
+                </span>
+                <span class="webbangiay-thq-text-elm194">
+                  Chính sách vận chuyển
+                </span>
+                <span class="webbangiay-thq-text-elm195">
+                  Chính sách đổi trả - bảo hành
+                </span>
+                <span class="webbangiay-thq-text-elm196">
+                  Chỉnh sách đổi trả tại cửa hàng
+                </span>
+                <span class="webbangiay-thq-text-elm197">
+                  Chính sách bảo mật
+                </span>
+              </div>
+              <span class="webbangiay-thq-text-elm198">VỀ CHÚNG TÔI</span>
+              <div class="webbangiay-thq-list-elm6">
+                <span class="webbangiay-thq-text-elm199">Giới thiệu</span>
+                <span class="webbangiay-thq-text-elm200">Liên hệ</span>
+                <span class="webbangiay-thq-text-elm201">
+                  Hệ thống cửa hàng
+                </span>
+                <span class="webbangiay-thq-text-elm202">
+                  Điều khoản và điều kiện
+                </span>
+                <span class="webbangiay-thq-text-elm203">Tuyển đại lý</span>
+              </div>
+              <span class="webbangiay-thq-text-elm204">ĐĂNG KÝ NHẬN TIN</span>
+              <span class="webbangiay-thq-text-elm205">
+                Bạn muốn nhận khuyến mãi đặc biệt? Đăng ký ngay.
+              </span>
+              <div class="webbangiay-thq-form-elm">
+                <div class="webbangiay-thq-inputach-email-elm">
+                  <div class="webbangiay-thq-container-elm23">
+                    <span class="webbangiay-thq-text-elm206">
+                      Nhập địa chỉ email
+                    </span>
+                  </div>
+                </div>
+                <div class="webbangiay-thq-background-elm43">
+                  <span class="webbangiay-thq-text-elm207">Đăng ký</span>
+                </div>
+              </div>
+              <div class="webbangiay-thq-list-elm7">
+                <div class="webbangiay-thq-item-linkfacebook-elm"></div>
+                <div class="webbangiay-thq-item-linkzalo-elm"></div>
+                <div class="webbangiay-thq-item-linkinstgram-elm"></div>
+                <div class="webbangiay-thq-item-linkyoutube-elm"></div>
+                <div class="webbangiay-thq-item-linktiktok-elm"></div>
+              </div>
+            </div>
+          </div>
+          <div class="webbangiay-thq-header-elm">
+            <div class="webbangiay-thq-nav-elm">
+              <div class="webbangiay-thq-form-input-search-elm">
+                <div class="webbangiay-thq-container-elm24">
+                  <span class="webbangiay-thq-text-elm208">Dép nam...</span>
+                </div>
+                <img
+                  src="public/linktmkimsvg1440-2zys.svg"
+                  alt="LinkTmkimSVG1440"
+                  class="webbangiay-thq-link-tmkim-svg-elm"
+                />
+              </div>
+              <img
+                src="public/linktikhonsvg7126-5jha.svg"
+                alt="LinkTikhonSVG7126"
+                class="webbangiay-thq-link-tikhon-svg-elm"
+              />
+              <div class="webbangiay-thq-nav-list-elm">
+                <div class="webbangiay-thq-item-link-elm1">
+                  <span class="webbangiay-thq-text-elm209">THƯƠNG HIỆU</span>
+                </div>
+                <div class="webbangiay-thq-item-link-elm2">
+                  <span class="webbangiay-thq-text-elm210">SẢN PHẨM MỚI</span>
+                </div>
+                <div class="webbangiay-thq-item-link-elm3">
+                  <span class="webbangiay-thq-text-elm211">LIÊN HỆ</span>
+                </div>
+                <div class="webbangiay-thq-item-link-elm4">
+                  <span class="webbangiay-thq-text-elm212">CỬA HÀNG</span>
+                </div>
+              </div>
+              <img
+                src="public/linkgihngsvg7135-mwwp.svg"
+                alt="LinkGihngSVG7135"
+                class="webbangiay-thq-link-gihng-svg-elm"
+              />
+              <img
+                src="public/linksvg7132-5wez.svg"
+                alt="LinkSVG7132"
+                class="webbangiay-thq-link-svg-elm51"
+              />
+            </div>
+            <img
+              src="public/image27120-xbg-200h.png"
+              alt="image27120"
+              class="webbangiay-thq-image2-elm"
+            />
+          </div>
+        </div>
+        <a href="https://play.teleporthq.io/signup" class="webbangiay-link">
+          <div aria-label="Sign up to TeleportHQ" class="webbangiay-container2">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 19 21"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              class="webbangiay-icon1"
+            >
+              <path
+                d="M9.1017 4.64355H2.17867C0.711684 4.64355 -0.477539 5.79975 -0.477539 7.22599V13.9567C-0.477539 15.3829 0.711684 16.5391 2.17867 16.5391H9.1017C10.5687 16.5391 11.7579 15.3829 11.7579 13.9567V7.22599C11.7579 5.79975 10.5687 4.64355 9.1017 4.64355Z"
+                fill="#B23ADE"
+              ></path>
+              <path
+                d="M10.9733 12.7878C14.4208 12.7878 17.2156 10.0706 17.2156 6.71886C17.2156 3.3671 14.4208 0.649963 10.9733 0.649963C7.52573 0.649963 4.73096 3.3671 4.73096 6.71886C4.73096 10.0706 7.52573 12.7878 10.9733 12.7878Z"
+                fill="#FF5C5C"
+              ></path>
+              <path
+                d="M17.7373 13.3654C19.1497 14.1588 19.1497 15.4634 17.7373 16.2493L10.0865 20.5387C8.67402 21.332 7.51855 20.6836 7.51855 19.0968V10.5141C7.51855 8.92916 8.67402 8.2807 10.0865 9.07221L17.7373 13.3654Z"
+                fill="#2874DE"
+              ></path>
+            </svg>
+            <span class="webbangiay-text">Built in TeleportHQ</span>
+          </div>
+        </a>
+      </div>
+      <link rel="canonical" href="https://untitled-auy3gb.teleporthq.app/" />
+    </div>
+  </body>
+</html>
